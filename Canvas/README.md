@@ -1,6 +1,24 @@
 ## [Canvas](https://developer.mozilla.org/docs/Web/HTML/Element/canvas)
 
 
+## Table of Contents
+
+1. [HTML Code](#html-code)
+2. [Select the Canvas](#select-the-canvas)
+3. [Set the Width and Height](#set-the-width-and-height)
+4. [Drawing Shapes](#drawing-shapes)
+   - [How to Draw a Rectangle](#how-to-draw-a-rectangle)
+   - [How to Fill the Shape](#how-to-fill-the-shape)
+   - [How to Change the Fill Style](#how-to-change-the-fill-style)
+   - [How to Draw a Line](#how-to-draw-a-line)
+   - [How to Change the Stroke Style](#how-to-change-the-stroke-style)
+   - [How to Draw a Circle](#how-to-draw-a-circle)
+5. [Animation in Canvas](#animation-in-canvas)
+   - [Define a Function](#define-a-function)
+   - [Request Animation Frame](#request-animation-frame)
+   - [Update the Value of x and y](#update-the-value-of-x-and-y)
+
+
 ### Html code
 ```html
 <!DOCTYPE html>
