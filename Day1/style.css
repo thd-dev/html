@@ -1,0 +1,96 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #212121;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #f1f1f1;
+}
+
+h1 {
+  text-align: center;
+  padding: 16px 24px;
+  font-size: 4rem;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  width: 45rem;
+  height: 75%;
+  margin: 5rem auto;
+  border-radius: 3rem;
+  padding: .5rem;
+  background-color: #878787;
+  overflow: hidden;
+}
+
+.inputArea {
+  height: 50%;
+  width: 100%;
+  border-radius: 3rem 3rem 0 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid white;
+  padding-block: 2rem;
+  gap: .4rem;
+  justify-content: center;
+
+  input {
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: end;
+    font-size: 3rem;
+    padding-right: 1rem;
+    background-color: transparent;
+
+    &:focus {
+      border: none;
+      outline: none;
+    }
+
+  }
+}
+
+#input {
+  overflow-x: auto;
+}
+
+#output {
+  font-size: 1.6rem !important;
+}
+
+.inputBtnArea {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  justify-content: space-evenly;
+  gap: .8rem;
+  padding: 2rem 1rem;
+
+  .btn {
+    display: inline-block;
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    padding-block: .6rem;
+    border-radius: 1rem;
+    cursor: pointer;
+  }
+}
